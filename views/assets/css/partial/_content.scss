@@ -12,12 +12,23 @@
     }
 
     .boutique {
-        background-color: #a8d8d0,
+        background-color: $primaryColor;
+
+        
+
+        h2 {
+            text-align: center;
+        }
         
     }
     
     .demarche {
-        background-color: #EFC649;
+        background-color: $accentColor;
+
+        h2 {
+            text-align: center;
+        }
+        
     }
     
     .troisBlock {
@@ -31,3 +42,11 @@
     }
 }
 
+@media screen and (min-width: 840px) {
+    .troisBlock {
+        display : flex;
+    }
+    .block {
+        margin: 2%;
+    }
+}

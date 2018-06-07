@@ -101,8 +101,16 @@ header strong {
   background-color: #a8d8d0;
 }
 
+.container_content .boutique h2 {
+  text-align: center;
+}
+
 .container_content .demarche {
   background-color: #EFC649;
+}
+
+.container_content .demarche h2 {
+  text-align: center;
 }
 
 .container_content .troisBlock img {
@@ -111,6 +119,15 @@ header strong {
 
 .container_content .troisBlock h3 {
   margin: 1em 0;
+}
+
+@media screen and (min-width: 840px) {
+  .troisBlock {
+    display: flex;
+  }
+  .block {
+    margin: 2%;
+  }
 }
 
 .moreInfo {
@@ -150,6 +167,15 @@ header strong {
 
 .moreInfo .container_info .block ul li {
   line-height: 1.5;
+}
+
+@media screen and (min-width: 840px) {
+  .container_info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 3%;
+  }
 }
 
 .contact {

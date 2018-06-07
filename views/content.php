@@ -39,7 +39,9 @@
             </p>
             <ul>
                 <li>pour redonner de la valeur aux vêtements devenus trop petits.</li>
+                <br>
                 <li>pour offrir une nouvelle vie aux habits qui ont été confectionnés avec soin et avec des matières durables puisqu’ils conservent leurs qualités durant des années.</li>
+                <br>
                 <li>pour favoriser le réemploi et lutter contre la surconsommation textile .</li>
             </ul>
         </div>
