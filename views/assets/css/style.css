@@ -30,6 +30,35 @@ a, .mail {
   text-decoration-style: dotted;
 }
 
+.moreInfo {
+  background-color: white;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.moreInfo .container_info {
+  width: 80%;
+  margin: auto;
+}
+
+.moreInfo p {
+  margin-bottom: 1em;
+  line-height: 1.5;
+}
+
+.moreInfo h3 {
+  margin: 1em 0;
+}
+
+.moreInfo h4 {
+  margin: 1em 0;
+}
+
+.moreInfo .block img {
+  width: 100%;
+  margin: auto;
+}
+
 .contact {
   text-align: center;
 }
