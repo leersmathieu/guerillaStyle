@@ -1,11 +1,23 @@
+//FONT-FACE//
+
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url("../font/Lato-Regular.ttf");
+}
+
 //VARIABLE - CHARTE GRAPHIQUE//
 
 $backgroundColor: #f3f6fa;
 $primaryColor: #a8d8d0;
 $secondaryColor: #eba3ae;
 $lightColor: white;
+$buttonColor: #83d3c9;
 
 $fontColor: grey;
+
+$fontFamilyBase: 'Lato-Regular';
+
+
 
 
 
@@ -16,6 +28,7 @@ $fontColor: grey;
 body {
     background-color: $backgroundColor;
     font-size: 16px;
+    font-family: $fontFamilyBase;
     color: $fontColor;
     width: 100vw;
 }
@@ -24,4 +37,16 @@ body {
     margin: auto;
     width: 80%;
     height: auto    ;
+}
+
+h2 {
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+
+a, .mail {
+    color: $buttonColor;
+    text-decoration: underline;
+    text-decoration-style: dotted;
 }
