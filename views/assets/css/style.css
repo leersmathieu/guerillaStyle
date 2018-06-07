@@ -30,6 +30,26 @@ a, .mail {
   text-decoration-style: dotted;
 }
 
+header {
+  height: 85vh;
+  text-align: center;
+  padding-top: 20vh;
+}
+
+header svg {
+  width: 90%;
+}
+
+header strong {
+  color: #eba3ae;
+}
+
+@media screen and (min-width: 580px) {
+  header svg {
+    width: 30%;
+  }
+}
+
 .moreInfo {
   background-color: white;
   padding-bottom: 20px;
