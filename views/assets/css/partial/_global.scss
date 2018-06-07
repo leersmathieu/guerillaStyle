@@ -4,6 +4,7 @@ $backgroundColor: #f3f6fa;
 $primaryColor: #a8d8d0;
 $secondaryColor: #eba3ae;
 $lightColor: white;
+$buttonColor: #83d3c9;
 
 $fontColor: grey;
 
@@ -24,4 +25,16 @@ body {
     margin: auto;
     width: 80%;
     height: auto    ;
+}
+
+h2 {
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    margin-bottom: 26px;
+}
+
+a, .mail {
+    color: $buttonColor;
+    text-decoration: underline;
+    text-decoration-style: dotted;
 }
