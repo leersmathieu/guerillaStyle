@@ -1,6 +1,7 @@
 <section class="moreInfo">
+<h2>LA RITOURNELLE C'EST AUSSI...</h2>
     <div class="container_info">
-        <h2>LA RITOURNELLE C'EST AUSSI...</h2>
+        
         <div class="block first">
             <img src="views/assets/img/short_bebe.jpg" alt="photo short bebe">
             <h4>DES ATELIERS</h4>
