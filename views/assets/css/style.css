@@ -41,22 +41,32 @@ a, .mail {
   margin: auto;
 }
 
-.moreInfo p {
+.moreInfo .container_info p {
   margin-bottom: 1em;
   line-height: 1.5;
+  text-align: left;
 }
 
-.moreInfo h3 {
+.moreInfo .container_info h3 {
   margin: 1em 0;
 }
 
-.moreInfo h4 {
+.moreInfo .container_info h4 {
   margin: 1em 0;
+  color: #eba3ae;
 }
 
-.moreInfo .block img {
+.moreInfo .container_info .block img {
   width: 100%;
   margin: auto;
+}
+
+.moreInfo .container_info .block ul {
+  list-style-type: none;
+}
+
+.moreInfo .container_info .block ul li {
+  line-height: 1.5;
 }
 
 .contact {
