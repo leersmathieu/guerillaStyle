@@ -3,5 +3,12 @@ body {
   background-color: #f3f6fa;
   font-size: 16px;
   color: grey;
+  width: 100vw;
+}
+
+.page {
+  margin: auto;
+  width: 80%;
+  height: auto;
 }
 /*# sourceMappingURL=style.css.map */

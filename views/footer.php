@@ -1,0 +1,3 @@
+</div>
+
+<!-- footer en dessous -->
