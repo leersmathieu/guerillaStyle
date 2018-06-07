@@ -54,4 +54,13 @@ a, .mail {
   text-align: left;
   padding-bottom: 5px;
 }
+
+p {
+  text-align: center;
+}
+
+footer div {
+  display: inline-block;
+  width: 8%;
+}
 /*# sourceMappingURL=style.css.map */
