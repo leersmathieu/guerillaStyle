@@ -1,0 +1,20 @@
+//VARIABLE - CHARTE GRAPHIQUE//
+
+$backgroundColor: #f3f6fa;
+$primaryColor: #a8d8d0;
+$secondaryColor: #eba3ae;
+$lightColor: white;
+
+$fontColor: grey;
+
+
+
+
+
+// CSS GLOBAL //
+
+body {
+    background-color: $backgroundColor;
+    font-size: 16px;
+    color: $fontColor;
+}

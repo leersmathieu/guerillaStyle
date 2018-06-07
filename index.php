@@ -14,6 +14,7 @@
 
             require "controllers/controle.php"; 
         ?>
+        <div>
         <script src="js/main.js"></script>
     </body>
 </html>
