@@ -6,8 +6,8 @@
             <h4>DES ATELIERS</h4>
             <p>
                 Parce qu'il y a toujours des tonnes de choses à découvrir, la Ritournelle s'associe pour vous proposer des ateliers couture, gestion des déchets, huiles essentielles... 
-
-                Pour en savoir plus, rendez-vous sur Facebook.
+                <br>
+                Pour en savoir plus, rendez-vous sur <a href="https://m.facebook.com/laritournelleboutique/">Facebook</a>.
             </p>
             <h4>DES ATTENTIONS</h4>
             <p>
@@ -15,15 +15,15 @@
             <h4>DES RENCONTRES</h4>
             <p>
                 La Ritournelle aime rencontrer et mettre à l'honneur. Découvrez les savons de Marseille de la marque Authentique Origine en vente à la boutique. 
-
-                Des jeux à volonté ? La Ritournelle est devenu point de retrait Simini. Un abonnement de location mensuel de jouets de qualité et captivant.</p>
+                <br>
+                Des jeux à volonté ? La Ritournelle est devenu point de retrait <a href="https://www.simini.be/">Simini</a> . Un abonnement de location mensuel de jouets de qualité et captivant.</p>
         </div>
         <div class="block second">
             <img src="views/assets/img/manteau_enfant.jpg" alt="">
             <h3>UNE AMBIANCE CHALEUREUSE</h3>
             <p>
                 Afin de vouloir changer l’idée que l’on se fait de la seconde main, la présentation des vêtements sur tringles a été pensée de manière originale et soignée. 
-
+                <br>
                 Les vêtements sont triés par taille ou par type.
                 N’hésitez pas à poser vos questions, nous sommes là pour vous écouter et vous conseiller. Les enfants sont les bienvenus dans la boutique, quelques livres et jeux sont mis à leur disposition.</p>
         </div>
