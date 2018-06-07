@@ -1,0 +1,19 @@
+header {
+    height: 85vh;
+    text-align: center;
+    padding-top: 20vh;
+    svg {
+        width: 90%;
+    }
+    strong {
+        color: $secondaryColor;
+    }
+}
+
+@media screen and (min-width: 580px) {
+    header {
+        svg {
+            width: 30%;
+        }
+   }
+}
