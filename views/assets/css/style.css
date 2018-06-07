@@ -30,6 +30,33 @@ a, .mail {
   text-decoration-style: dotted;
 }
 
+.container_content p {
+  line-height: 1.5;
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+.container_content ul {
+  margin-bottom: 1em;
+  line-height: 1.5;
+}
+
+.container_content .boutique {
+  background-color: #a8d8d0;
+}
+
+.container_content .demarche {
+  background-color: #EFC649;
+}
+
+.container_content .troisBlock img {
+  width: 100%;
+}
+
+.container_content .troisBlock h3 {
+  margin: 1em 0;
+}
+
 .moreInfo {
   background-color: white;
   padding-bottom: 20px;
