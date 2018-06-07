@@ -18,6 +18,8 @@ p {
 
 footer div {
   display: inline-block;
-  width: 8%;
+  width: 30%;
+  text-align: center;
+  margin: auto;
 }
 /*# sourceMappingURL=style.css.map */
