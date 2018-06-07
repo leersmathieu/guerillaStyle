@@ -6,6 +6,7 @@
         require "views/content.php";
         require "views/moreInfo.php";
         require "views/contact.php";
+        require "views/footer.php";
 
     }
 
