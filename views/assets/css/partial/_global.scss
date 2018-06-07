@@ -1,3 +1,10 @@
+//FONT-FACE//
+
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url("../font/Lato-Regular.ttf");
+}
+
 //VARIABLE - CHARTE GRAPHIQUE//
 
 $backgroundColor: #f3f6fa;
@@ -8,6 +15,10 @@ $buttonColor: #83d3c9;
 
 $fontColor: grey;
 
+$fontFamilyBase: 'Lato-Regular';
+
+
+
 
 
 
@@ -17,6 +28,7 @@ $fontColor: grey;
 body {
     background-color: $backgroundColor;
     font-size: 16px;
+    font-family: $fontFamilyBase;
     color: $fontColor;
     width: 100vw;
 }
