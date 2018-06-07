@@ -11,7 +11,7 @@ Le One-pager est fait sur le magasin de vêtement : La Ritournelle. Afin d'essai
 ------------------------------------------------------------------------
 
 
-##Démarche de la réalisation :
+## Démarche de la réalisation :
 
 * Refaire le site à la main pour le rendre plus léger.
 * Ajout d'amélioration, nottament avec un formulaire de contact.
@@ -22,7 +22,7 @@ Le One-pager est fait sur le magasin de vêtement : La Ritournelle. Afin d'essai
 -------------------------------------------------------------------------
 
 
-##But du projet :
+## But du projet :
 
 * Travail de groupe coordonné avec de nouveaux collaborateurs.
 * Travailler les compétences acquises dans un cas concret.
