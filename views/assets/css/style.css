@@ -212,34 +212,42 @@ header strong {
 }
 
 .container_content p {
-  line-height: 1.5;
+  line-height: 1.7;
   text-align: left;
   margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+.container_content h2 {
+  text-align: center;
+  margin: 5px 0 35px 0;
+}
+
+.container_content strong {
+  font-weight: bold;
 }
 
 .container_content ul {
   margin-bottom: 1em;
-  line-height: 1.5;
+  line-height: 1.7;
 }
 
 .container_content .boutique {
-  background-color: #a8d8d0;
-}
-
-.container_content .boutique h2 {
-  text-align: center;
-}
-
-.container_content .demarche {
-  background-color: #ffe084;
-  border: 2px solid #EFC649;
+  background-color: #bcf2e9;
+  border: 2px solid #47a596;
+  box-shadow: 5px 5px #47a596;
   border-radius: 3px;
   margin: 55px 10px;
   padding: 35px;
 }
 
-.container_content .demarche h2 {
-  text-align: center;
+.container_content .demarche {
+  background-color: #ffff7c;
+  border: 2px solid #EFC649;
+  box-shadow: 5px 5px #EFC649;
+  border-radius: 3px;
+  margin: 55px 10px;
+  padding: 35px;
 }
 
 .container_content .troisBlock img {

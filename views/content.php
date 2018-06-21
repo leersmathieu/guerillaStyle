@@ -9,9 +9,11 @@
         <h2>UNE DÉMARCHE CIRCULAIRE</h2>
         <p>
         Aujourd’hui, les grandes enseignes de la mode proposent des nouvelles collections toutes les deux à six semaines. Il s’agit d’une production gigantesque de vêtements qui va au-delà de nos besoins. Des études ont révélé que plus de la moitié d’une garde-robe n’étaient pas utilisés. Ces vêtements sont pourtant de la valeur dormant dans nos armoires. 
-        <br>
-        Le dépôt-vente devient une occasion de leur donner une nouvelle chance en les revalorisant. Les enfants grandissent très vite et il faut constamment renouveler leur garde-robe. 
-        <br>
+        </p>
+        
+        <p>Le dépôt-vente devient une occasion de leur donner une nouvelle chance en les revalorisant. Les enfants grandissent très vite et il faut constamment renouveler leur garde-robe. 
+        </p>
+        <p>
         Grâce à <strong>La Ritournelle</strong>, la réutilisation de vêtements pour enfants prolonge leur durée de vie, réduit la consommation des ressources naturelles et réduit les déchets. <strong>La Ritournelle</strong> ajoute une étape supplémentaire dans le cycle économique du vêtement.
         </p>
     </div>

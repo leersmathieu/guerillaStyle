@@ -1,37 +1,46 @@
 .container_content {
    
     p {
-        line-height: 1.5;
+        line-height: 1.7;
         text-align: left;
         margin-bottom: 1em;
+        font-size: 1.2em;
+    }
+
+    h2 {
+        text-align: center;
+        margin: 5px 0 35px 0;
+    }
+
+    strong {
+        font-weight: bold;
     }
 
     ul {
         margin-bottom: 1em;
-        line-height: 1.5;
+        line-height: 1.7;
     }
 
     .boutique {
-        background-color: $primaryColor;
-
-        
-
-        h2 {
-            text-align: center;
-        }
-        
-    }
-    
-    .demarche {
-        background-color: #ffe084;
-        border: 2px solid $accentColor;
+        background-color: #bcf2e9;
+        border: 2px solid #47a596;
+        box-shadow: 5px 5px #47a596;
         border-radius: 3px;
         margin: 55px 10px;
         padding: 35px;
 
-        h2 {
-            text-align: center;
-        }
+        
+    }
+    
+    .demarche {
+        background-color: #ffff7c;
+        border: 2px solid $accentColor;
+        box-shadow: 5px 5px $accentColor;
+        border-radius: 3px;
+        margin: 55px 10px;
+        padding: 35px;
+
+       
         
     }
     
