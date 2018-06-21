@@ -231,7 +231,11 @@ header strong {
 }
 
 .container_content .demarche {
-  background-color: #EFC649;
+  background-color: #ffe084;
+  border: 2px solid #EFC649;
+  border-radius: 3px;
+  margin: 55px 10px;
+  padding: 35px;
 }
 
 .container_content .demarche h2 {
