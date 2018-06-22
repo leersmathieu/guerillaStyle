@@ -224,7 +224,8 @@ header strong {
 }
 
 .container_content strong {
-  font-weight: bold;
+  background-color: #47a596;
+  color: #bcf2e9;
 }
 
 .container_content ul {
