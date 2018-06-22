@@ -168,7 +168,7 @@ a, .mail {
 }
 
 #navigation h1 strong {
-  font-size: 5em;
+  font-size: 4em;
   color: #dd7284;
 }
 
@@ -296,6 +296,7 @@ header strong {
   background-color: #f6ffff;
   padding: 20px;
   margin-top: 40px;
+  border-radius: 5px;
 }
 
 .container_content .troisBlock .block .rondA {
