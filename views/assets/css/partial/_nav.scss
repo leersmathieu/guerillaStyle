@@ -9,6 +9,10 @@
         width: 20%;
         display: inline-block;
         vertical-align: middle;
+        strong {
+            font-size: 5em;
+            color: $accentTroisBlock ;
+        }
     }
     nav {
         display: inline-block;

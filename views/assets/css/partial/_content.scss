@@ -1,5 +1,7 @@
 .container_content {
    
+    background-color: $backgroundColor;
+
     p {
         line-height: 1.7;
         text-align: left;
@@ -10,11 +12,7 @@
     h2 {
         text-align: center;
         margin: 5px 0 35px 0;
-    }
-
-    strong {
-        background-color: #47a596;
-        color: #bcf2e9;
+        padding-bottom: 10px;
     }
 
     ul {
@@ -23,35 +21,182 @@
     }
 
     .boutique {
-        background-color: #bcf2e9;
-        border: 2px solid #47a596;
-        box-shadow: 5px 5px #47a596;
+        background-color: $bgBoutique;
+        border: 2px solid $accentBoutique;
+        box-shadow: 5px 5px $accentBoutique;
         border-radius: 3px;
-        margin: 55px 10px;
+        margin: 55px auto;
         padding: 35px;
+        max-width: 1000px;
+        width: 95%;
+
+        strong {
+            background-color: $accentBoutique;
+            color: #d8f7f2;
+            border-radius: 3px;
+            padding: 0 5px;
+        }
+
+        h2 {
+            color: $accentBoutique;
+            border-bottom: 4px solid $accentBoutique;
+        }
 
         
     }
     
     .demarche {
-        background-color: #ffff7c;
+        background-color: $bgDemarche;
         border: 2px solid $accentColor;
         box-shadow: 5px 5px $accentColor;
         border-radius: 3px;
-        margin: 55px 10px;
+        margin: 55px auto 200px;
         padding: 35px;
+        max-width: 1000px;
+        width: 95%;
 
-       
-        
+        strong {
+            background-color: $accentColor;
+            color: #ffffd6;
+            border-radius: 3px;
+            padding: 0 5px;
+        }
+
+        h2 {
+            color: $accentColor;
+            border-bottom: 4px solid $accentColor;
+        }
+
     }
     
     .troisBlock {
+        background-color: $bgTroisBlock;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='82' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23f0f0f0' fill-opacity='0.25'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        padding: 200px 20px;
+        border-bottom: 13px solid rgb(255, 212, 223);
+        margin-bottom: 100px;
+
+        .block {
+            background-color: $backgroundColor;
+            padding: 20px;
+            margin-top: 40px;
+
+
+            .rondA {
+                width: 20px;
+                height: 20px;
+                background-color: $bgBoutique;
+                border: 2px solid $accentBoutique;
+                border-radius: 15px;
+                box-shadow: 2px 2px $accentBoutique; 
+                display: inline-block;
+                margin: 0 8px;
+            }
+            .ligne1 {
+        
+                height: 12px;
+                width: 0px;
+                border-left: 1px solid $accentBoutique;
+                border-right: 1px solid $accentBoutique;
+                margin: auto;
+                position: relative;
+                top: 2px;
+            }
+            .ligne2 {
+                height: Opx;
+                width: 12px;
+                border-top: 1px solid $accentBoutique;
+                border-bottom: 1px solid $accentBoutique;
+                margin: auto;
+                position: relative;
+                top: -5px;
+            }
+            .rondB {
+                width: 20px;
+                height: 20px;
+                background-color: $bgDemarche;
+                border: 2px solid $accentColor;
+                border-radius: 15px;
+                box-shadow: 2px 2px $accentColor; 
+                display: inline-block;
+                margin: 0 8px;
+            }
+            .ligne3 {
+        
+                height: 12px;
+                width: 0px;
+                border-left: 1px solid $accentColor;
+                border-right: 1px solid $accentColor;
+                margin: auto;
+                position: relative;
+                top: 2px;
+            }
+            .ligne4 {
+                height: Opx;
+                width: 12px;
+                border-top: 1px solid $accentColor;
+                border-bottom: 1px solid $accentColor;
+                margin: auto;
+                position: relative;
+                top: -5px;
+            }
+            .rondC {
+                width: 20px;
+                height: 20px;
+                background-color: $bgTroisBlock;
+                border: 2px solid $accentTroisBlock;
+                border-radius: 15px;
+                box-shadow: 2px 2px $accentTroisBlock; 
+                display: inline-block;
+                margin: 0 8px;
+            }
+            .ligne5 {
+        
+                height: 12px;
+                width: 0px;
+                border-left: 1px solid $accentTroisBlock;
+                border-right: 1px solid $accentTroisBlock;
+                margin: auto;
+                position: relative;
+                top: 2px;
+            }
+            .ligne6 {
+                height: Opx;
+                width: 12px;
+                border-top: 1px solid $accentTroisBlock;
+                border-bottom: 1px solid $accentTroisBlock;
+                margin: auto;
+                position: relative;
+                top: -5px;
+            }
+            .liste {
+                display: inline;
+                margin-left: 8px;
+            }
+        }
+        .depot{
+            border: 5px solid rgb(128, 128, 128);
+            h3 {
+                color : rgb(128, 128, 128);
+                border-bottom: 5px solid rgb(128, 128, 128);
+            }
+        }
+
+        
+
         img {
             width: 100%;
+            border: 2px solid rgb(175, 175, 175);
+            box-shadow: 5px 5px rgb(175, 175, 175);
+            border-radius: 3px;
         }
         
         h3 {
-           margin: 1em 0;
+           margin: 2em 0;
+           padding-bottom: 10px;
+           border-bottom: 5px solid rgb(175, 175, 175);
+           color: rgb(175, 175, 175);
+           font-size: 1.5em;
         }
     }
 }
@@ -61,6 +206,18 @@
         display : flex;
     }
     .block {
-        margin: 2%;
+        margin: 1.5rem;
+    }
+    .marque {
+        position: relative;
+        top: 80px;
+    }
+    .boutiquesmall {
+        position: relative;
+        top: -80px;
+    }
+    .depot {
+        position: relative;
+        top: -80px;
     }
 }

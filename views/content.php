@@ -30,7 +30,7 @@
             <img src="views/assets/img/marques-enfant.jpg" alt="">
             <h3>NOS MARQUES</h3>
             <p>
-            Ba*ba - Bellerose - Benetton - Bobo Choses - Bout'chou - Buissonnière - Cyrillus - Emile et Ida - Froy & Dind - Grain de blé - IKKS - Imps & Elfs - Jacadi - Kids case - kikkid - L'Asticot - Little Label - Loud+Proud - Mini Rodini - Noukies - Petit Bateau - P’tit filou - ainsi que la plupart des vêtements confectionnés en Europe
+            Ba*ba  -  Bellerose  -  Benetton  -  Bobo Choses  -  Bout'chou  -  Buissonnière  -  Cyrillus  -  Emile et Ida  -  Froy & Dind  -  Grain de blé  -  IKKS  -  Imps & Elfs  -  Jacadi  -  Kids case  -  kikkid  -  L'Asticot  -  Little Label  -  Loud+Proud  -  Mini Rodini  -  Noukies  -  Petit Bateau  -  P’tit filou  -  ainsi que la plupart des vêtements confectionnés en Europe.
             </p>
         </div>
         <div class="block depot">
@@ -40,11 +40,35 @@
             Pourquoi déposer et acheter des vêtements déjà portés ?
             </p>
             <ul>
-                <li>pour redonner de la valeur aux vêtements devenus trop petits.</li>
+                <li>
+                    <div class="rondA">
+                        <div class="ligne1"></div>
+                         <div class="ligne2"></div>
+                    </div>
+                    <div class="liste">
+                        pour redonner de la valeur aux vêtements devenus trop petits.
+                    </div> 
+                </li>
                 <br>
-                <li>pour offrir une nouvelle vie aux habits qui ont été confectionnés avec soin et avec des matières durables puisqu’ils conservent leurs qualités durant des années.</li>
+                <li>
+                     <div class="rondB">
+                        <div class="ligne3"></div>
+                         <div class="ligne4"></div>
+                    </div>
+                    <div class="liste">
+                        pour offrir une nouvelle vie aux habits qui ont été confectionnés avec soin et avec des matières durables puisqu’ils conservent leurs qualités durant des années.
+                    </div>
+                </li>
                 <br>
-                <li>pour favoriser le réemploi et lutter contre la surconsommation textile .</li>
+                <li>
+                <div class="rondC">
+                        <div class="ligne5"></div>
+                         <div class="ligne6"></div>
+                    </div>
+                    <div class="liste">
+                        pour favoriser le réemploi et lutter contre la surconsommation textile .
+                    </div>
+                </li>
             </ul>
         </div>
     </div>
