@@ -212,7 +212,7 @@ header strong {
 
 @media screen and (min-width: 580px) {
   header img {
-    width: 30%;
+    width: 45%;
   }
 }
 
@@ -310,7 +310,7 @@ header strong {
   margin: 0 8px;
 }
 
-.container_content .troisBlock .block .rondA .ligne1 {
+.container_content .troisBlock .block .ligne1 {
   height: 12px;
   width: 0px;
   border-left: 1px solid #47a596;
@@ -320,7 +320,7 @@ header strong {
   top: 2px;
 }
 
-.container_content .troisBlock .block .rondA .ligne2 {
+.container_content .troisBlock .block .ligne2 {
   height: Opx;
   width: 12px;
   border-top: 1px solid #47a596;
@@ -341,7 +341,7 @@ header strong {
   margin: 0 8px;
 }
 
-.container_content .troisBlock .block .rondB .ligne1 {
+.container_content .troisBlock .block .ligne3 {
   height: 12px;
   width: 0px;
   border-left: 1px solid #d4a61a;
@@ -351,7 +351,7 @@ header strong {
   top: 2px;
 }
 
-.container_content .troisBlock .block .rondB .ligne2 {
+.container_content .troisBlock .block .ligne4 {
   height: Opx;
   width: 12px;
   border-top: 1px solid #d4a61a;
