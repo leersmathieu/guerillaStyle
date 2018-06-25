@@ -1,12 +1,30 @@
-p {
-    text-align: center;
-}
 
 footer {
-    div {
-        display: inline-block;
-        width: 30%;
-        text-align: center;
+    .social {
+        width: 80%;
         margin: auto;
+        margin-bottom: 20px;
+        
+        div {
+            display: inline-block;
+            width: 32%;
+            text-align: center;
+            margin: auto;
+        }
+        
+    }
+    p {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
+@media screen and (min-width: 800px){
+
+    footer {
+        .social {
+            div {
+                width: 33%;
+            }
+        }
     }
 }

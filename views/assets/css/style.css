@@ -9,12 +9,11 @@ body {
   font-size: 16px;
   font-family: "Lato-Regular";
   color: #3d3d3d;
-  width: 100vw;
 }
 
 .page {
   margin: auto;
-  width: 85%;
+  width: 80%;
   height: auto;
 }
 
@@ -32,6 +31,12 @@ a, .mail {
   color: #83d3c9;
   text-decoration: underline;
   text-decoration-style: dotted;
+}
+
+@media screen and (max-width: 800px) {
+  .page {
+    width: 98%;
+  }
 }
 
 .burgerMenu {
@@ -164,7 +169,7 @@ a, .mail {
 #navigation h1 {
   width: 20%;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: bottom;
 }
 
 #navigation h1 strong {
@@ -208,6 +213,7 @@ header img {
 
 header strong {
   color: #eba3ae;
+  font-size: 120%;
 }
 
 @media screen and (min-width: 580px) {
@@ -245,8 +251,7 @@ header strong {
   border-radius: 3px;
   margin: 55px auto;
   padding: 35px;
-  max-width: 1000px;
-  width: 95%;
+  width: 90%;
 }
 
 .container_content .boutique strong {
@@ -268,8 +273,7 @@ header strong {
   border-radius: 3px;
   margin: 55px auto 200px;
   padding: 35px;
-  max-width: 1000px;
-  width: 95%;
+  width: 90%;
 }
 
 .container_content .demarche strong {
@@ -310,24 +314,14 @@ header strong {
   margin: 0 8px;
 }
 
-.container_content .troisBlock .block .ligne1 {
-  height: 12px;
-  width: 0px;
+.container_content .troisBlock .block .rondA .ligne1 {
   border-left: 1px solid #47a596;
   border-right: 1px solid #47a596;
-  margin: auto;
-  position: relative;
-  top: 2px;
 }
 
-.container_content .troisBlock .block .ligne2 {
-  height: Opx;
-  width: 12px;
+.container_content .troisBlock .block .rondA .ligne2 {
   border-top: 1px solid #47a596;
   border-bottom: 1px solid #47a596;
-  margin: auto;
-  position: relative;
-  top: -5px;
 }
 
 .container_content .troisBlock .block .rondB {
@@ -341,24 +335,14 @@ header strong {
   margin: 0 8px;
 }
 
-.container_content .troisBlock .block .ligne3 {
-  height: 12px;
-  width: 0px;
-  border-left: 1px solid #d4a61a;
+.container_content .troisBlock .block .rondB .ligne1 {
   border-right: 1px solid #d4a61a;
-  margin: auto;
-  position: relative;
-  top: 2px;
+  border-left: 1px solid #d4a61a;
 }
 
-.container_content .troisBlock .block .ligne4 {
-  height: Opx;
-  width: 12px;
+.container_content .troisBlock .block .rondB .ligne2 {
   border-top: 1px solid #d4a61a;
   border-bottom: 1px solid #d4a61a;
-  margin: auto;
-  position: relative;
-  top: -5px;
 }
 
 .container_content .troisBlock .block .rondC {
@@ -372,24 +356,14 @@ header strong {
   margin: 0 8px;
 }
 
-.container_content .troisBlock .block .ligne5 {
-  height: 12px;
-  width: 0px;
+.container_content .troisBlock .block .rondC .ligne1 {
   border-left: 1px solid #dd7284;
   border-right: 1px solid #dd7284;
-  margin: auto;
-  position: relative;
-  top: 2px;
 }
 
-.container_content .troisBlock .block .ligne6 {
-  height: Opx;
-  width: 12px;
+.container_content .troisBlock .block .rondC .ligne2 {
   border-top: 1px solid #dd7284;
   border-bottom: 1px solid #dd7284;
-  margin: auto;
-  position: relative;
-  top: -5px;
 }
 
 .container_content .troisBlock .block .liste {
@@ -397,19 +371,9 @@ header strong {
   margin-left: 8px;
 }
 
-.container_content .troisBlock .depot {
-  border: 5px solid gray;
-}
-
-.container_content .troisBlock .depot h3 {
-  color: gray;
-  border-bottom: 5px solid gray;
-}
-
 .container_content .troisBlock img {
   width: 100%;
   border: 2px solid #afafaf;
-  box-shadow: 5px 5px #afafaf;
   border-radius: 3px;
 }
 
@@ -421,12 +385,28 @@ header strong {
   font-size: 1.5em;
 }
 
+.ligne1 {
+  height: 12px;
+  width: 0px;
+  margin: auto;
+  position: relative;
+  top: 2px;
+}
+
+.ligne2 {
+  height: Opx;
+  width: 12px;
+  margin: auto;
+  position: relative;
+  top: -5px;
+}
+
 @media screen and (min-width: 840px) {
+  .troisBlock .block {
+    margin: 1%;
+  }
   .troisBlock {
     display: flex;
-  }
-  .block {
-    margin: 1.5rem;
   }
   .marque {
     position: relative;
@@ -501,7 +481,7 @@ header strong {
 }
 
 .contact input {
-  width: 100%;
+  width: 98%;
   height: 5vh;
   margin-bottom: 20px;
 }
@@ -509,6 +489,7 @@ header strong {
 .contact textarea {
   width: 100%;
   height: 12vh;
+  margin-bottom: 30px;
 }
 
 .contact .formContact p {
@@ -516,14 +497,27 @@ header strong {
   padding-bottom: 5px;
 }
 
-p {
-  text-align: center;
+footer .social {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
 }
 
-footer div {
+footer .social div {
   display: inline-block;
-  width: 30%;
+  width: 32%;
   text-align: center;
   margin: auto;
+}
+
+footer p {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 800px) {
+  footer .social div {
+    width: 33%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -24,11 +24,6 @@ $fontColor: rgb(61, 61, 61);
 $fontFamilyBase: 'Lato-Regular';
 
 
-
-
-
-
-
 // CSS GLOBAL //
 
 body {
@@ -36,12 +31,12 @@ body {
     font-size: 16px;
     font-family: $fontFamilyBase;
     color: $fontColor;
-    width: 100vw;
+    // width: 100vw;
 }
 
 .page {
     margin: auto;
-    width: 85%;
+    width: 80%;
     height: auto    ;
 }
 
@@ -59,4 +54,10 @@ a, .mail {
     color: $buttonColor;
     text-decoration: underline;
     text-decoration-style: dotted;
+}
+
+@media screen and (max-width: 800px) { 
+    .page {
+        width: 98%;
+    }
 }
