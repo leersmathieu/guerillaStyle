@@ -197,7 +197,7 @@ header {
   padding-top: 20vh;
 }
 
-header svg {
+header img {
   width: 90%;
 }
 
@@ -206,7 +206,7 @@ header strong {
 }
 
 @media screen and (min-width: 580px) {
-  header svg {
+  header img {
     width: 30%;
   }
 }

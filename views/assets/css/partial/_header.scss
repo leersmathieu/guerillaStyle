@@ -2,7 +2,7 @@ header {
     height: 85vh;
     text-align: center;
     padding-top: 20vh;
-    svg {
+    img {
         width: 90%;
     }
     strong {
@@ -12,7 +12,7 @@ header {
 
 @media screen and (min-width: 580px) {
     header {
-        svg {
+        img {
             width: 30%;
         }
    }
