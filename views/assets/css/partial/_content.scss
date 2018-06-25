@@ -85,25 +85,25 @@
                 box-shadow: 2px 2px $accentBoutique; 
                 display: inline-block;
                 margin: 0 8px;
-            }
-            .ligne1 {
-        
-                height: 12px;
-                width: 0px;
-                border-left: 1px solid $accentBoutique;
-                border-right: 1px solid $accentBoutique;
-                margin: auto;
-                position: relative;
-                top: 2px;
-            }
-            .ligne2 {
-                height: Opx;
-                width: 12px;
-                border-top: 1px solid $accentBoutique;
-                border-bottom: 1px solid $accentBoutique;
-                margin: auto;
-                position: relative;
-                top: -5px;
+                .ligne1 {
+            
+                    height: 12px;
+                    width: 0px;
+                    border-left: 1px solid $accentBoutique;
+                    border-right: 1px solid $accentBoutique;
+                    margin: auto;
+                    position: relative;
+                    top: 2px;
+                }
+                .ligne2 {
+                    height: Opx;
+                    width: 12px;
+                    border-top: 1px solid $accentBoutique;
+                    border-bottom: 1px solid $accentBoutique;
+                    margin: auto;
+                    position: relative;
+                    top: -5px;
+                }
             }
             .rondB {
                 width: 20px;
@@ -114,25 +114,25 @@
                 box-shadow: 2px 2px $accentColor; 
                 display: inline-block;
                 margin: 0 8px;
-            }
-            .ligne3 {
-        
-                height: 12px;
-                width: 0px;
-                border-left: 1px solid $accentColor;
-                border-right: 1px solid $accentColor;
-                margin: auto;
-                position: relative;
-                top: 2px;
-            }
-            .ligne4 {
-                height: Opx;
-                width: 12px;
-                border-top: 1px solid $accentColor;
-                border-bottom: 1px solid $accentColor;
-                margin: auto;
-                position: relative;
-                top: -5px;
+                .ligne1 {
+            
+                    height: 12px;
+                    width: 0px;
+                    border-left: 1px solid $accentColor;
+                    border-right: 1px solid $accentColor;
+                    margin: auto;
+                    position: relative;
+                    top: 2px;
+                }
+                .ligne2 {
+                    height: Opx;
+                    width: 12px;
+                    border-top: 1px solid $accentColor;
+                    border-bottom: 1px solid $accentColor;
+                    margin: auto;
+                    position: relative;
+                    top: -5px;
+                }
             }
             .rondC {
                 width: 20px;
