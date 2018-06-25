@@ -9,7 +9,6 @@ body {
   font-size: 16px;
   font-family: "Lato-Regular";
   color: #3d3d3d;
-  width: 100vw;
 }
 
 .page {
@@ -32,6 +31,12 @@ a, .mail {
   color: #83d3c9;
   text-decoration: underline;
   text-decoration-style: dotted;
+}
+
+@media screen and (max-width: 800px) {
+  .page {
+    width: 98%;
+  }
 }
 
 .burgerMenu {
@@ -164,7 +169,7 @@ a, .mail {
 #navigation h1 {
   width: 20%;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: bottom;
 }
 
 #navigation h1 strong {
@@ -367,19 +372,9 @@ header strong {
   margin-left: 8px;
 }
 
-.container_content .troisBlock .depot {
-  border: 5px solid gray;
-}
-
-.container_content .troisBlock .depot h3 {
-  color: gray;
-  border-bottom: 5px solid gray;
-}
-
 .container_content .troisBlock img {
   width: 100%;
   border: 2px solid #afafaf;
-  box-shadow: 5px 5px #afafaf;
   border-radius: 3px;
 }
 
@@ -408,11 +403,11 @@ header strong {
 }
 
 @media screen and (min-width: 840px) {
+  .troisBlock .block {
+    margin: 1%;
+  }
   .troisBlock {
     display: flex;
-  }
-  .block {
-    margin: 1.5rem;
   }
   .marque {
     position: relative;
@@ -487,7 +482,7 @@ header strong {
 }
 
 .contact input {
-  width: 100%;
+  width: 98%;
   height: 5vh;
   margin-bottom: 20px;
 }
@@ -495,6 +490,7 @@ header strong {
 .contact textarea {
   width: 100%;
   height: 12vh;
+  margin-bottom: 30px;
 }
 
 .contact .formContact p {
@@ -504,11 +500,18 @@ header strong {
 
 p {
   text-align: center;
+  padding-bottom: 20px;
 }
 
-footer div {
+footer .social {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+footer .social div {
   display: inline-block;
-  width: 30%;
+  width: 33%;
   text-align: center;
   margin: auto;
 }

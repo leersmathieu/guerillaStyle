@@ -36,7 +36,7 @@ body {
     font-size: 16px;
     font-family: $fontFamilyBase;
     color: $fontColor;
-    width: 100vw;
+    // width: 100vw;
 }
 
 .page {
@@ -59,4 +59,10 @@ a, .mail {
     color: $buttonColor;
     text-decoration: underline;
     text-decoration-style: dotted;
+}
+
+@media screen and (max-width: 800px) { 
+    .page {
+        width: 98%;
+    }
 }

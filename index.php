@@ -24,6 +24,7 @@ error_reporting(E_ALL);
             $action = isset($_GET['action']) ? htmlentities($_GET['action']) : 'home';
 
             require "controllers/controle.php"; 
+            
         ?>
         <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenLite.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/plugins/CSSPlugin.min.js"></script>
