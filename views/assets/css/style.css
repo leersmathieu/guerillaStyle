@@ -13,7 +13,7 @@ body {
 
 .page {
   margin: auto;
-  width: 85%;
+  width: 80%;
   height: auto;
 }
 
@@ -213,6 +213,7 @@ header img {
 
 header strong {
   color: #eba3ae;
+  font-size: 120%;
 }
 
 @media screen and (min-width: 580px) {
@@ -250,8 +251,7 @@ header strong {
   border-radius: 3px;
   margin: 55px auto;
   padding: 35px;
-  max-width: 1000px;
-  width: 95%;
+  width: 90%;
 }
 
 .container_content .boutique strong {
@@ -273,8 +273,7 @@ header strong {
   border-radius: 3px;
   margin: 55px auto 200px;
   padding: 35px;
-  max-width: 1000px;
-  width: 95%;
+  width: 90%;
 }
 
 .container_content .demarche strong {
@@ -498,11 +497,6 @@ header strong {
   padding-bottom: 5px;
 }
 
-p {
-  text-align: center;
-  padding-bottom: 20px;
-}
-
 footer .social {
   width: 80%;
   margin: auto;
@@ -511,8 +505,19 @@ footer .social {
 
 footer .social div {
   display: inline-block;
-  width: 33%;
+  width: 32%;
   text-align: center;
   margin: auto;
+}
+
+footer p {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 800px) {
+  footer .social div {
+    width: 33%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

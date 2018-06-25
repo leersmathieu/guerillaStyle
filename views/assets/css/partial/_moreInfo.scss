@@ -10,16 +10,13 @@
             line-height: 1.5;
             text-align: left
         }
-        
         h3 {
             margin: 1em 0;
         }
-        
         h4 {
             margin: 1em 0;
             color: $secondaryColor;
         }
-        
         .block {
             img {
                 width: 100%;
@@ -32,17 +29,14 @@
                 }
             }
         }
-        
     }
-   
 }
 
 @media screen and (min-width: 840px) {
     .container_info {
-        display : grid;
+        display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         grid-column-gap: 3%;
     }
 }
-

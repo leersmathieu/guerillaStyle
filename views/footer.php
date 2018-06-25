@@ -1,3 +1,5 @@
+<!-- FOOTER ET FERMETURE DE LA BALISE PAGE -->
+
 </div>
 
 <!-- footer en dessous -->

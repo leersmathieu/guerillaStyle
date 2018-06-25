@@ -1,3 +1,5 @@
+<!-- HEADER ET OUVERTURE DE LA BALISE PAGE -->
+
 <div class="page">
 
     <header>
