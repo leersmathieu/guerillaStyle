@@ -1,5 +1,5 @@
 <div id="navigation">
-    <h1>LA RITOURNELLE</h1>
+    <h1>LA RITOURNELLE <strong> . </strong></h1>
     <nav>
         <ul>
             <li id="twoWord">En deux mots</li>

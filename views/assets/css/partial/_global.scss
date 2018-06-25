@@ -7,14 +7,19 @@
 
 //VARIABLE - CHARTE GRAPHIQUE//
 
-$backgroundColor: #f3f6fa;
+$backgroundColor: #f6ffff;
 $primaryColor: #a8d8d0;
 $secondaryColor: #eba3ae;
 $lightColor: white;
 $buttonColor: #83d3c9;
-$accentColor: #EFC649;
+$accentColor: rgb(212, 166, 26);
+$bgTroisBlock: #f5bac6;
+$bgDemarche: #fcfc9c;
+$bgBoutique: #bcf2e9;
+$accentBoutique: #47a596;
+$accentTroisBlock: rgb(221, 114, 132);
 
-$fontColor: grey;
+$fontColor: rgb(61, 61, 61);
 
 $fontFamilyBase: 'Lato-Regular';
 
@@ -36,7 +41,7 @@ body {
 
 .page {
     margin: auto;
-    width: 80%;
+    width: 100%;
     height: auto    ;
 }
 
