@@ -14,7 +14,7 @@ body {
 
 .page {
   margin: auto;
-  width: 100%;
+  width: 85%;
   height: auto;
 }
 
@@ -168,7 +168,7 @@ a, .mail {
 }
 
 #navigation h1 strong {
-  font-size: 4em;
+  font-size: 5em;
   color: #dd7284;
 }
 
@@ -212,7 +212,7 @@ header strong {
 
 @media screen and (min-width: 580px) {
   header img {
-    width: 30%;
+    width: 45%;
   }
 }
 
@@ -449,7 +449,6 @@ header strong {
 }
 
 .moreInfo .container_info {
-  width: 80%;
   margin: auto;
 }
 
@@ -491,7 +490,7 @@ header strong {
 }
 
 .contact {
-  width: 50%;
+  width: 90%;
   text-align: center;
   margin: auto;
 }
