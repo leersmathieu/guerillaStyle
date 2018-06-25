@@ -311,23 +311,13 @@ header strong {
 }
 
 .container_content .troisBlock .block .rondA .ligne1 {
-  height: 12px;
-  width: 0px;
   border-left: 1px solid #47a596;
   border-right: 1px solid #47a596;
-  margin: auto;
-  position: relative;
-  top: 2px;
 }
 
 .container_content .troisBlock .block .rondA .ligne2 {
-  height: Opx;
-  width: 12px;
   border-top: 1px solid #47a596;
   border-bottom: 1px solid #47a596;
-  margin: auto;
-  position: relative;
-  top: -5px;
 }
 
 .container_content .troisBlock .block .rondB {
