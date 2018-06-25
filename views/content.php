@@ -52,8 +52,8 @@
                 <br>
                 <li>
                      <div class="rondB">
-                        <div class="ligne3"></div>
-                         <div class="ligne4"></div>
+                        <div class="ligne1"></div>
+                         <div class="ligne2"></div>
                     </div>
                     <div class="liste">
                         pour offrir une nouvelle vie aux habits qui ont été confectionnés avec soin et avec des matières durables puisqu’ils conservent leurs qualités durant des années.
@@ -62,8 +62,8 @@
                 <br>
                 <li>
                 <div class="rondC">
-                        <div class="ligne5"></div>
-                         <div class="ligne6"></div>
+                        <div class="ligne1"></div>
+                         <div class="ligne2"></div>
                     </div>
                     <div class="liste">
                         pour favoriser le réemploi et lutter contre la surconsommation textile .

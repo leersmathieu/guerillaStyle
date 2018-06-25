@@ -10,7 +10,4 @@
         require("views/footer.php");
 
     }
-
-  
-   
 ?>
