@@ -26,9 +26,9 @@ error_reporting(E_ALL);
             require "controllers/controle.php"; 
             
         ?>
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenLite.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenLite.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/plugins/CSSPlugin.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/plugins/ScrollToPlugin.min.js"></script>
-        <script src="js/main.js"></script> -->
+        <script src="views/assets/js/main.js"></script>
     </body>
 </html>
