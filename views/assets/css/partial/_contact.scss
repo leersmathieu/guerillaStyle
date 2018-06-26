@@ -1,5 +1,5 @@
 .contact {
-    width: 90%;
+    width: 100%;
     text-align: center;
     margin: auto;
     .infoContact {
@@ -7,9 +7,10 @@
         line-height: 25px;
     }
     input {
-        width: 98%;
+        width: 100%;
         height: 5vh;
         margin-bottom: 20px;
+        box-sizing: border-box;
     }
     textarea {
         width: 100%;

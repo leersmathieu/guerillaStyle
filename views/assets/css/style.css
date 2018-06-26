@@ -42,6 +42,7 @@ a, .mail {
 .burgerMenu {
   padding-left: 20px;
   padding-top: 20px;
+  position: fixed;
 }
 
 .burgerMenu .burger {
@@ -110,6 +111,8 @@ a, .mail {
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.5s ease-in-out;
+  background-color: white;
+  border-radius: 20px;
 }
 
 .burgerMenu .burger-check:checked ~ .navigation {
@@ -223,7 +226,6 @@ header strong {
 }
 
 .container_content {
-  background-color: white;
   padding-top: 30px;
 }
 
@@ -231,7 +233,7 @@ header strong {
   line-height: 1.7;
   text-align: left;
   margin-bottom: 1em;
-  font-size: 1.2em;
+  font-size: 1rem;
 }
 
 .container_content h2 {
@@ -403,6 +405,9 @@ header strong {
 }
 
 @media screen and (min-width: 840px) {
+  .container_content p {
+    font-size: 1.2rem;
+  }
   .troisBlock .block {
     margin: 1%;
   }
@@ -472,7 +477,7 @@ header strong {
 }
 
 .contact {
-  width: 90%;
+  width: 100%;
   text-align: center;
   margin: auto;
 }
@@ -483,9 +488,10 @@ header strong {
 }
 
 .contact input {
-  width: 98%;
+  width: 100%;
   height: 5vh;
   margin-bottom: 20px;
+  box-sizing: border-box;
 }
 
 .contact textarea {

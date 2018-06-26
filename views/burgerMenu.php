@@ -4,13 +4,13 @@
     <nav id="navigation1" class="navigation">
         <ul>
             <li id="burgerTwoWord">
-                <a href="#">Deux mots</a>
+                <a>Deux mots</a>
             </li>
             <li id="burgerDepot">
-                <a href="#">Dépots</a>
+                <a>Dépots</a>
             </li>
             <li id="burgerContact"> 
-                <a href="#">Contact</a>
+                <a>Contact</a>
             </li>
         </ul>
     </nav>
