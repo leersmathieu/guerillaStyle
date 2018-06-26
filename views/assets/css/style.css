@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #f6ffff;
+  background-color: #f1f9ff;
   font-size: 16px;
   font-family: "Lato-Regular";
   color: #3d3d3d;
@@ -223,7 +223,8 @@ header strong {
 }
 
 .container_content {
-  background-color: #f6ffff;
+  background-color: white;
+  padding-top: 30px;
 }
 
 .container_content p {
@@ -297,7 +298,7 @@ header strong {
 }
 
 .container_content .troisBlock .block {
-  background-color: #f6ffff;
+  background-color: #f1f9ff;
   padding: 20px;
   margin-top: 40px;
   border-radius: 5px;
@@ -423,9 +424,10 @@ header strong {
 }
 
 .moreInfo {
-  background-color: white;
+  background-color: #f1f9ff;
   padding-bottom: 20px;
   margin-bottom: 20px;
+  padding-top: 30px;
 }
 
 .moreInfo .container_info {
