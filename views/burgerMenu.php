@@ -3,13 +3,13 @@
     <label for="burger-check" class="burger"></label>
     <nav id="navigation1" class="navigation">
         <ul>
-            <li>
+            <li id="burgerTwoWord">
                 <a href="#">Deux mots</a>
             </li>
-            <li>
+            <li id="burgerDepot">
                 <a href="#">Dépots</a>
             </li>
-            <li>
+            <li id="burgerContact"> 
                 <a href="#">Contact</a>
             </li>
         </ul>

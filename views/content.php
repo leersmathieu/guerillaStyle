@@ -2,7 +2,7 @@
 
     <!-- PREMIERE PAGE -->
 
-    <div class="boutique">
+    <div class="boutique" id="boutique">
         <h2>LA BOUTIQUE EN DEUX MOTS</h2>
         <p>
             La Ritournelle est une boutique de
