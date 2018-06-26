@@ -1,11 +1,11 @@
 .container_content {
-    background-color: $lightColor;
+    // background-color: $lightColor;
     padding-top: 30px;
     p {
         line-height: 1.7;
         text-align: left;
         margin-bottom: 1em;
-        font-size: 1.2em;
+        font-size: 1rem;
     }
     h2 {
         text-align: center;
@@ -170,6 +170,11 @@
 }
 
 @media screen and (min-width: 840px) {
+    .container_content {
+        p {
+            font-size: 1.2rem;
+        }
+    }
     .troisBlock {
         .block {
             margin: 1%;

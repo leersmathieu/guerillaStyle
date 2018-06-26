@@ -1,7 +1,10 @@
-//ATENTION CECI EST UN VIEUX COPY PASTE DES FAMILLES//
+//ATENTION CECI EST UN VIEUX COPY PASTE DES FAMILLES LEGEREMENT ÉDITÉ//
 .burgerMenu {
     padding-left: 20px;
     padding-top: 20px;
+    position: fixed;
+    
+
 
     // Burger menu button
     $burger--thickness: 4px;
@@ -38,6 +41,7 @@
             margin-bottom: 5px;
             transition: transform 0.5s ease-in-out;
             -webkit-transition: -webkit-transform 0.5s ease-in-out;
+            
         }
     }
     
@@ -69,6 +73,10 @@
         overflow: hidden;
         max-height: 0;
         transition: $navigation__transition;
+        background-color: $lightColor;
+        border-radius: 20px;
+        // padding: 10px;
+        
     }
     
     .burger-check:checked~.navigation {
