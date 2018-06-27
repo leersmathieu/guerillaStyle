@@ -13,7 +13,7 @@ body {
 
 .page {
   margin: auto;
-  width: 80%;
+  width: 70%;
   height: auto;
 }
 
@@ -164,15 +164,12 @@ a, .mail {
 #navigation {
   width: 100%;
   height: 10vh;
-  display: inline-block;
-  padding-top: 3%;
   padding-left: 2%;
 }
 
 #navigation h1 {
   width: 20%;
   display: inline-block;
-  vertical-align: bottom;
 }
 
 #navigation h1 strong {
@@ -182,25 +179,54 @@ a, .mail {
 
 #navigation nav {
   display: inline-block;
-  width: 70%;
-  margin-left: 5%;
+  width: 500px;
+  margin-left: 40%;
 }
 
 #navigation nav ul {
-  margin-left: 70%;
-  display: -moz-inline-box;
+  text-align: center;
 }
 
 #navigation nav ul li {
-  display: inline-block;
-  width: 50%;
-  padding-right: 20px;
+  padding: 20px;
   text-transform: uppercase;
 }
 
 @media screen and (max-width: 600px) {
   #navigation {
     display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  ul li {
+    display: inline;
+    text-align: center;
+  }
+  #navTwoWord:hover ~ hr {
+    margin-left: 18%;
+    opacity: 1;
+    background: #a8d8d0;
+  }
+  #navDepot:hover ~ hr {
+    margin-left: 41%;
+    opacity: 1;
+    background: #eba3ae;
+  }
+  #navContact:hover ~ hr {
+    margin-left: 63%;
+    opacity: 1;
+    background: #f8c733;
+  }
+  hr {
+    height: .25rem;
+    width: 100px;
+    margin: 0;
+    background: #a8d8d0;
+    border: none;
+    transition: .3s ease-in-out;
+    opacity: 0;
+    margin-top: 3px;
   }
 }
 
@@ -485,6 +511,9 @@ header strong {
   width: 100%;
   text-align: center;
   margin: auto;
+  background-color: #fcfc9c;
+  padding: 30px;
+  margin-bottom: 20px;
 }
 
 .contact .infoContact {
