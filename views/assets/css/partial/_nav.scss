@@ -15,14 +15,9 @@
         width: 500px;
         margin-left: 40%;
         ul {
-            // margin-left: 60%;
-            text-align: center;
-            // width: 35%;
+            text-align: center; // width: 35%;
             li {
-                // display: inline-block;
-                // width: 33%;
-                padding: 20px;
-                // padding-right: 20px;
+                padding: 20px; 
                 text-transform: uppercase;
             }
         }
@@ -33,8 +28,6 @@
     #navigation {
         display: none; // Ne pas afficher cette barre de navigation pour mobile
     }
-
-    
 }
 
 //Animation Soulignement Navigation
@@ -43,28 +36,21 @@
         display: inline;
         text-align: center;
     }
-
     #navTwoWord:hover~hr {
         margin-left: 18%;
         opacity: 1;
         background: $primaryColor;
-        
     }
-
     #navDepot:hover~hr {
         margin-left: 41%;
         opacity: 1;
         background: $secondaryColor;
-        
     }
-
     #navContact:hover~hr {
         margin-left: 63%;
         opacity: 1;
         background: rgb(248, 199, 51);
-        
     }
-
     hr {
         height: .25rem;
         width: 100px;
@@ -76,7 +62,3 @@
         margin-top: 3px;
     }
 }
-
-
-
-
