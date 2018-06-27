@@ -32,3 +32,28 @@ burgerTwoWord.addEventListener('click', twoWord)
 burgerDepot.addEventListener('click', depot)
 burgerContact.addEventListener('click', contact)
 
+
+
+// let saveNavTwoWord = "En deux mots"
+// console.log(saveNavTwoWord)
+
+// let i = 1
+// const underline = (nav, saveNav) => {
+    
+//     console.log(saveNav.length)
+    
+//         let sliced = saveNav.slice(0,i)
+//         console.log(sliced)
+//         let slicedNext = saveNav.slice(i, saveNav.length)
+//         console.log(slicedNext)
+//         nav.innerHTML="<u>"+sliced+"</u>"+slicedNext
+//         i++
+//         if (i >= saveNav.length){
+//             clearInterval(interval)
+//         }
+    
+
+// }
+// let interval = window.setInterval(underline(navTwoWord, saveNavTwoWord), 1000)
+
+
