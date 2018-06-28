@@ -2,6 +2,9 @@
     width: 100%;
     height: 10vh;
     padding-left: 2%;
+    position: fixed;
+    background-color: $backgroundColor;
+    z-index: 1;
     h1 {
         width: 20%;
         display: inline-block;
@@ -15,7 +18,7 @@
         width: 500px;
         margin-left: 40%;
         ul {
-            text-align: center; // width: 35%;
+            text-align: center; 
             li {
                 padding: 20px; 
                 text-transform: uppercase;
