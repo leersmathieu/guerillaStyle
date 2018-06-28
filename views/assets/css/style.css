@@ -207,17 +207,17 @@ a, .mail {
     text-align: center;
   }
   #navTwoWord:hover ~ hr {
-    margin-left: 18%;
+    margin-left: 10%;
     opacity: 1;
     background: #a8d8d0;
   }
   #navDepot:hover ~ hr {
-    margin-left: 41%;
+    margin-left: 39%;
     opacity: 1;
     background: #eba3ae;
   }
   #navContact:hover ~ hr {
-    margin-left: 63%;
+    margin-left: 67%;
     opacity: 1;
     background: #f8c733;
   }
