@@ -182,8 +182,8 @@ a, .mail {
 
 #navigation nav {
   display: inline-block;
-  width: 500px;
-  margin-left: 40%;
+  width: 400px;
+  margin-left: 55%;
 }
 
 #navigation nav ul {
@@ -234,9 +234,9 @@ a, .mail {
 }
 
 header {
-  height: 90vh;
+  height: 94vh;
   text-align: center;
-  padding-top: 20vh;
+  padding-top: 30vh;
 }
 
 header img {
@@ -250,7 +250,7 @@ header strong {
 
 @media screen and (min-width: 580px) {
   header img {
-    width: 45%;
+    width: 40%;
   }
 }
 
