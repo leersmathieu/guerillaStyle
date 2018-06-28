@@ -33,7 +33,7 @@ a, .mail {
   text-decoration-style: dotted;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 840px) {
   .page {
     width: 98%;
   }
@@ -155,7 +155,7 @@ a, .mail {
   text-decoration: underline;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 840px) {
   .burgerMenu {
     display: none;
   }
@@ -171,7 +171,7 @@ a, .mail {
 }
 
 #navigation h1 {
-  width: 20%;
+  width: 20vw;
   display: inline-block;
 }
 
@@ -183,7 +183,7 @@ a, .mail {
 #navigation nav {
   display: inline-block;
   width: 400px;
-  margin-left: 55%;
+  margin-left: 30vw;
 }
 
 #navigation nav ul {
@@ -195,13 +195,13 @@ a, .mail {
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 840px) {
   #navigation {
     display: none;
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 840px) {
   ul li {
     display: inline;
     text-align: center;
@@ -248,9 +248,24 @@ header strong {
   font-size: 120%;
 }
 
-@media screen and (min-width: 580px) {
+canvas {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 640px) {
   header img {
     width: 40%;
+  }
+  header canvas {
+    z-index: 0;
   }
 }
 
@@ -568,7 +583,7 @@ footer p {
   padding-bottom: 20px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 840px) {
   footer .social div {
     width: 33%;
   }
