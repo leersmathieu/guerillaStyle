@@ -11,10 +11,30 @@ header {
     }
 }
 
-@media screen and (min-width: 580px) {
+//PARTICULE
+canvas {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+    background-repeat: no-repeat;
+}
+
+//Responsive mod
+
+@media screen and (min-width: 640px) {
     header {
         img {
             width: 40%;
         }
+        canvas {
+            z-index: 0;
+        }
     }
 }
+
