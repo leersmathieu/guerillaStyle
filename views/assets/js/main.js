@@ -9,12 +9,12 @@ const burgerContact = document.querySelector('#burgerContact')
 let screenHeight = window.innerHeight
 
 const twoWord = () => { 
-        TweenLite.to(window, 2, { scrollTo: { y: "#boutique", offsetY: 10 } });
+        TweenLite.to(window, 2, { scrollTo: { y: "#boutique", offsetY:110 } });
         
 }
 
 const depot = () => {
-    TweenLite.to(window, 2, { scrollTo: { y: ".boutiquesmall", offsetY: 0 } });
+    TweenLite.to(window, 2, { scrollTo: { y: ".boutiquesmall", offsetY: 110 } });
 
 }
 
@@ -34,26 +34,6 @@ burgerContact.addEventListener('click', contact)
 
 
 
-// let saveNavTwoWord = "En deux mots"
-// console.log(saveNavTwoWord)
 
-// let i = 1
-// const underline = (nav, saveNav) => {
-    
-//     console.log(saveNav.length)
-    
-//         let sliced = saveNav.slice(0,i)
-//         console.log(sliced)
-//         let slicedNext = saveNav.slice(i, saveNav.length)
-//         console.log(slicedNext)
-//         nav.innerHTML="<u>"+sliced+"</u>"+slicedNext
-//         i++
-//         if (i >= saveNav.length){
-//             clearInterval(interval)
-//         }
-    
-
-// }
-// let interval = window.setInterval(underline(navTwoWord, saveNavTwoWord), 1000)
 
 
