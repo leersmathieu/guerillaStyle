@@ -260,7 +260,7 @@ ul li {
 }
 
 header {
-  height: 94vh;
+  height: 87vh;
   text-align: center;
   padding-top: 30vh;
 }
@@ -290,9 +290,33 @@ canvas {
   header img {
     width: 40%;
   }
-  header canvas {
-    z-index: 0;
-  }
+}
+
+.callToAction {
+  text-align: center;
+}
+
+.callToAction .callFacebook {
+  width: 50%;
+  margin: auto;
+}
+
+.callToAction .callFacebook .btn {
+  background: #a8d8d0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a8d8d0), to(#eba3ae));
+  background-image: linear-gradient(#a8d8d0, #eba3ae);
+  border-radius: 3px;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+  text-shadow: 0px 2px 0px #969696;
+}
+
+.callToAction .callFacebook .btn:hover {
+  background: #d4a61a;
+  text-decoration: none;
 }
 
 .container_content {

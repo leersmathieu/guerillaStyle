@@ -1,5 +1,5 @@
 header {
-    height: 94vh;
+    height: 87vh;
     text-align: center;
     padding-top: 30vh;
     img {
@@ -32,9 +32,9 @@ canvas {
         img {
             width: 40%;
         }
-        canvas {
-            z-index: 0;
-        }
+        // canvas {
+        //     z-index: 0; 
+        // }
     }
 }
 
