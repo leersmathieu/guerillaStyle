@@ -25,8 +25,8 @@
             <textarea type="text" name="message" id="message" placeholder="Tape ton message ici . . ."></textarea>
             <div class="logo"></div>
         </form>
-        
+
     </div>
-    <input type="submit" name="send" value="Send message" id="send">
+    <input type="submit" name="send" value="Envoyer Message" id="send">
 
 </section>

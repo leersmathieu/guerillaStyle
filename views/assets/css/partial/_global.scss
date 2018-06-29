@@ -11,7 +11,7 @@ $backgroundColor: #f1f9ff;
 $primaryColor: #a8d8d0;
 $secondaryColor: #eba3ae;
 $lightColor: white;
-$buttonColor: #83d3c9;
+$linkColor: #83d3c9;
 $accentColor: rgb(212, 166, 26);
 $bgTroisBlock: #f5bac6;
 $bgDemarche: #fcfc9c;
@@ -51,9 +51,16 @@ h2 {
 }
 
 a, .mail {
-    color: $buttonColor;
+    color: $linkColor;
     text-decoration: underline;
     text-decoration-style: dotted;
+    &:hover{
+        color:$secondaryColor;
+    }
+}
+
+ul li {
+    display: block;
 }
 
 @media screen and (max-width: 840px) { 
