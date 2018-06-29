@@ -13,10 +13,16 @@ Le One-pager est fait sur le magasin de vêtement : La Ritournelle. Afin d'essai
 
 ##Démarche de la réalisation :
 
+###Phase 1 : Début du projet rush de 6h
+
 * Refaire le site à la main pour le rendre plus léger.
 * Ajout d'amélioration, nottament avec un formulaire de contact.
 * Rajouter une mailinglist.
 
+
+###Phase 2
+
+* 
 
 
 -------------------------------------------------------------------------
@@ -35,3 +41,8 @@ Le One-pager est fait sur le magasin de vêtement : La Ritournelle. Afin d'essai
 -----------------------------------------------------------------------
 
 
+##Compétence Mobiliser :
+
+* Apprendre à travailler dans une équipe aux compétences et niveaux divers.
+* Apprendre à gérer les timing de groupe, et les agendas personnel.
+* 
