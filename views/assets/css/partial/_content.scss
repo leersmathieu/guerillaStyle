@@ -5,7 +5,7 @@
         line-height: 1.7;
         text-align: left;
         margin-bottom: 1em;
-        font-size: 1rem;
+        font-size: 1.1em;
     }
     h2 {
         text-align: center;
@@ -58,15 +58,14 @@
     }
     .troisBlock {
         background-color: $bgTroisBlock;
-        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='82' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23f0f0f0' fill-opacity='0.25'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='41' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23f0f0f0' fill-opacity='0.25'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
         padding: 200px 20px;
-        border-bottom: 13px solid rgb(255, 212, 223);
         margin-bottom: 100px;
         .block {
             background-color: $backgroundColor;
             padding: 20px;
             margin-top: 40px;
-            border-radius: 5px;
+            border-radius: 3px;
 
             ///// LOGO "+" des .troisBlock /////
             .rondA {
@@ -127,7 +126,7 @@
 
             .liste {
                 display: inline;
-                margin-left: 8px;
+                margin-left: 6px;
             }
         }
         // .depot {
@@ -146,7 +145,7 @@
         h3 {
             margin: 2em 0;
             padding-bottom: 10px;
-            border-bottom: 5px solid rgb(175, 175, 175);
+            border-bottom: 4px solid rgb(175, 175, 175);
             color: rgb(175, 175, 175);
             font-size: 1.5em;
         }
@@ -171,28 +170,34 @@
 
 @media screen and (min-width: 840px) {
     .container_content {
-        p {
-            font-size: 1.2rem;
+        
+        .troisBlock {
+            display: flex;
+
+            p {
+                line-height: 1.7;
+                text-align: left;
+                margin-bottom: 1em;
+                font-size: 1.1em;
+            }
+        
+            
+            .block {
+                margin: 1%;
+            }
+        }
+        .marque {
+            position: relative;
+            top: 80px;
+        }
+        .boutiquesmall {
+            position: relative;
+            top: -80px;
+        }
+        .depot {
+            position: relative;
+            top: -80px;
         }
     }
-    .troisBlock {
-        .block {
-            margin: 1%;
-        }
-    }
-    .troisBlock {
-        display: flex;
-    }
-    .marque {
-        position: relative;
-        top: 80px;
-    }
-    .boutiquesmall {
-        position: relative;
-        top: -80px;
-    }
-    .depot {
-        position: relative;
-        top: -80px;
-    }
+    
 }
