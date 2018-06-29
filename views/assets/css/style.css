@@ -277,7 +277,7 @@ canvas {
   line-height: 1.7;
   text-align: left;
   margin-bottom: 1em;
-  font-size: 1rem;
+  font-size: 1.1em;
 }
 
 .container_content h2 {
@@ -337,9 +337,8 @@ canvas {
 
 .container_content .troisBlock {
   background-color: #f5bac6;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='82' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23f0f0f0' fill-opacity='0.25'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='41' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23f0f0f0' fill-opacity='0.25'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   padding: 200px 20px;
-  border-bottom: 13px solid #ffd4df;
   margin-bottom: 100px;
 }
 
@@ -347,7 +346,7 @@ canvas {
   background-color: #f1f9ff;
   padding: 20px;
   margin-top: 40px;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 .container_content .troisBlock .block .rondA {
@@ -415,7 +414,7 @@ canvas {
 
 .container_content .troisBlock .block .liste {
   display: inline;
-  margin-left: 8px;
+  margin-left: 6px;
 }
 
 .container_content .troisBlock img {
@@ -427,7 +426,7 @@ canvas {
 .container_content .troisBlock h3 {
   margin: 2em 0;
   padding-bottom: 10px;
-  border-bottom: 5px solid #afafaf;
+  border-bottom: 4px solid #afafaf;
   color: #afafaf;
   font-size: 1.5em;
 }
@@ -449,24 +448,27 @@ canvas {
 }
 
 @media screen and (min-width: 840px) {
-  .container_content p {
-    font-size: 1.2rem;
-  }
-  .troisBlock .block {
-    margin: 1%;
-  }
-  .troisBlock {
+  .container_content .troisBlock {
     display: flex;
   }
-  .marque {
+  .container_content .troisBlock p {
+    line-height: 1.7;
+    text-align: left;
+    margin-bottom: 1em;
+    font-size: 1.1em;
+  }
+  .container_content .troisBlock .block {
+    margin: 1%;
+  }
+  .container_content .marque {
     position: relative;
     top: 80px;
   }
-  .boutiquesmall {
+  .container_content .boutiquesmall {
     position: relative;
     top: -80px;
   }
-  .depot {
+  .container_content .depot {
     position: relative;
     top: -80px;
   }
@@ -474,6 +476,8 @@ canvas {
 
 .moreInfo {
   background-color: #f1f9ff;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-bottom: 20px;
   margin-bottom: 20px;
   padding-top: 30px;
@@ -487,41 +491,60 @@ canvas {
   margin-bottom: 1em;
   line-height: 1.5;
   text-align: left;
+  padding: 10px 0;
+  line-height: 1.7;
+  font-size: 1.1em;
 }
 
 .moreInfo .container_info h3 {
   margin: 1em 0;
-  text-align: center;
+  border-bottom: 4px solid #646464;
+  padding-bottom: 10px;
 }
 
 .moreInfo .container_info h4 {
   margin: 1em 0;
   color: #eba3ae;
+  border-bottom: 4px solid #eba3ae;
+  padding-bottom: 10px;
 }
 
 .moreInfo .container_info .block img {
   width: 100%;
   margin: auto;
+  margin-bottom: 20px;
 }
 
-.moreInfo .container_info .block ul {
+.moreInfo .container_info .fourth h3 {
+  text-align: center;
+  border: none;
+}
+
+.moreInfo .container_info .fourth .horraire {
+  text-align: center;
   list-style-type: none;
 }
 
-.moreInfo .container_info .block ul li {
-  line-height: 1.5;
-}
-
-.moreInfo .container_info .horraire {
-  text-align: center;
+.moreInfo .container_info .fourth .horraire li {
+  line-height: 1.7;
 }
 
 @media screen and (min-width: 840px) {
-  .container_info {
+  .moreInfo {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .moreInfo h2 {
+    padding-bottom: 20px;
+  }
+  .moreInfo .container_info {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-column-gap: 3%;
+  }
+  .moreInfo .container_info li {
+    display: block;
   }
 }
 

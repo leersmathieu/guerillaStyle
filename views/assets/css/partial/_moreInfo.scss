@@ -1,5 +1,7 @@
 .moreInfo {
     background-color: $backgroundColor;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 20px;
     margin-bottom: 20px;
     padding-top: 30px;
@@ -9,39 +11,64 @@
         p {
             margin-bottom: 1em;
             line-height: 1.5;
-            text-align: left
+            text-align: left;
+            padding: 10px 0;
+            line-height: 1.7;
+            font-size: 1.1em;
         }
         h3 {
             margin: 1em 0;
-            text-align: center;
+            border-bottom: 4px solid rgb(100, 100, 100);
+            padding-bottom: 10px;
         }
         h4 {
             margin: 1em 0;
             color: $secondaryColor;
+            border-bottom: 4px solid $secondaryColor;
+            padding-bottom: 10px;
         }
         .block {
             img {
                 width: 100%;
                 margin: auto;
+                margin-bottom: 20px;
             }
-            ul {
+            
+        
+        }
+        .fourth{
+            h3{
+                text-align: center;
+                border: none;
+            }
+            .horraire {
+                text-align: center;
                 list-style-type: none;
                 li {
-                    line-height: 1.5;
+                    line-height: 1.7;
                 }
             }
-        }
-        .horraire {
-            text-align: center;
-        }
+        }   
     }
 }
-
 @media screen and (min-width: 840px) {
+   .moreInfo{
+    padding-left: 0;
+    padding-right: 0;
+    h2{
+        padding-bottom: 20px;
+    }
+
     .container_info {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         grid-column-gap: 3%;
+       
+        li{
+            display: block;
+        }
     }
+   }
+    
 }
