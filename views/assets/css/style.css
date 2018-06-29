@@ -139,14 +139,6 @@ ul li {
   transition: max-height 0.5s ease-in-out;
 }
 
-.burgerMenu body {
-  background-color: floralwhite;
-  font-family: 'Libre Baskerville', serif;
-  font-style: italic;
-  font-size: 30px;
-  text-align: centeR;
-}
-
 .burgerMenu a {
   color: inherit;
 }
@@ -163,7 +155,8 @@ ul li {
 .burgerMenu li {
   list-style: none;
   font-size: 25px;
-  padding: 5px 0;
+  padding: 10px;
+  background-color: #fffff2;
 }
 
 .burgerMenu li a {
