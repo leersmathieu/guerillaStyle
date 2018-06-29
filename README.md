@@ -9,7 +9,7 @@ Project réaliser par *Mathieu Leers*, *Baptiste Firket* et *Stéphane Wyns*, le
 
 Le projet est un One-pager devant être fait avec une deadline de **6h**.
 
-Le One-pager est fait sur le magasin de vêtement : La Ritournelle. Afin d'essaier d'améliorer [leur site internet] (https://www.ritournelle.be/index.html) et de proposer un meilleur projet, plus atractif en allant à l'essentiel.
+Le One-pager est fait sur le magasin de vêtement : La Ritournelle. Afin d'essaier d'améliorer [leur site internet](https://www.ritournelle.be/index.html) et de proposer un meilleur projet, plus atractif en allant à l'essentiel.
 
 
 ## Phase 2
@@ -17,20 +17,20 @@ Le One-pager est fait sur le magasin de vêtement : La Ritournelle. Afin d'essai
 La phase 2 du projet est *d'améliorer* le site avec plus de temps devant nous, plus ou moins 3 semaines.
 
 
-¬-----------------------------------------------------------------------
+----------------------------------------------------------------------------------
 
 
 ## Démarche de la réalisation :
 
 
-###Phase 1 : Début du projet rush de 6h
+### Phase 1 : Début du projet rush de 6h
 
 * Refaire le site à la main pour le rendre plus léger.
 * Ajout d'amélioration, nottament avec un formulaire de contact.
-* Rajouter une mailinglist.
+* Mettre un Call To Action vers leur page facebook.
 
 
-###Phase 2 : Amélioration du projet
+### Phase 2 : Amélioration du projet
 
 * Ajout de l'animation des points.
 * Amélioration de la barre de navigation.
@@ -59,7 +59,7 @@ La phase 2 du projet est *d'améliorer* le site avec plus de temps devant nous, 
 -----------------------------------------------------------------------
 
 
-##Compétences mobilisées :
+## Compétences mobilisées :
 
 * Apprendre à travailler dans une équipe aux compétences et niveaux divers.
 * Apprendre à gérer les timing de groupe, et les agendas personnels.
