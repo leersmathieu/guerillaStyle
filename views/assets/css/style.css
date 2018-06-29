@@ -30,7 +30,8 @@ h2 {
 a, .mail {
   color: #83d3c9;
   text-decoration: underline;
-  text-decoration-style: dotted;
+  -webkit-text-decoration-style: dotted;
+          text-decoration-style: dotted;
 }
 
 @media screen and (max-width: 840px) {
@@ -69,7 +70,9 @@ a, .mail {
   border-bottom: 4px solid currentColor;
   width: 100%;
   margin-bottom: 5px;
+  transition: -webkit-transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
   -webkit-transition: -webkit-transform 0.5s ease-in-out;
 }
 
@@ -79,7 +82,9 @@ a, .mail {
   border-bottom: 4px solid currentColor;
   width: 100%;
   margin-bottom: 5px;
+  transition: -webkit-transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
   -webkit-transition: -webkit-transform 0.5s ease-in-out;
 }
 
@@ -96,20 +101,25 @@ a, .mail {
 .burgerMenu .burger-check:checked ~ .burger:before {
   transform: rotate(-405deg) translateY(1px) translateX(-3px);
   -webkit-transform: rotate(-405deg) translateY(1px) translateX(-3px);
+  transition: -webkit-transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
   -webkit-transition: -webkit-transform 0.5s ease-in-out;
 }
 
 .burgerMenu .burger-check:checked ~ .burger:after {
   transform: rotate(405deg) translateY(-4px) translateX(-5px);
   -webkit-transform: rotate(405deg) translateY(-4px) translateX(-5px);
+  transition: -webkit-transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
   -webkit-transition: -webkit-transform 0.5s ease-in-out;
 }
 
 .burgerMenu .navigation {
   overflow: hidden;
   max-height: 0;
+  -webkit-transition: max-height 0.5s ease-in-out;
   transition: max-height 0.5s ease-in-out;
   background-color: white;
   border-radius: 20px;
@@ -117,6 +127,7 @@ a, .mail {
 
 .burgerMenu .burger-check:checked ~ .navigation {
   max-height: 500px;
+  -webkit-transition: max-height 0.5s ease-in-out;
   transition: max-height 0.5s ease-in-out;
 }
 
@@ -176,7 +187,7 @@ a, .mail {
 }
 
 #navigation h1 strong {
-  font-size: 5em;
+  font-size: 4em;
   color: #dd7284;
 }
 
@@ -242,6 +253,7 @@ hr {
   margin: 0;
   background: #a8d8d0;
   border: none;
+  -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
   opacity: 0;
   margin-top: 3px;
@@ -308,7 +320,8 @@ canvas {
 .container_content .boutique {
   background-color: #bcf2e9;
   border: 2px solid #47a596;
-  box-shadow: 5px 5px #47a596;
+  -webkit-box-shadow: 5px 5px #47a596;
+          box-shadow: 5px 5px #47a596;
   border-radius: 3px;
   margin: 55px auto;
   padding: 35px;
@@ -330,7 +343,8 @@ canvas {
 .container_content .demarche {
   background-color: #fcfc9c;
   border: 2px solid #d4a61a;
-  box-shadow: 5px 5px #d4a61a;
+  -webkit-box-shadow: 5px 5px #d4a61a;
+          box-shadow: 5px 5px #d4a61a;
   border-radius: 3px;
   margin: 55px auto 200px;
   padding: 35px;
@@ -370,7 +384,8 @@ canvas {
   background-color: #bcf2e9;
   border: 2px solid #47a596;
   border-radius: 15px;
-  box-shadow: 2px 2px #47a596;
+  -webkit-box-shadow: 2px 2px #47a596;
+          box-shadow: 2px 2px #47a596;
   display: inline-block;
   margin: 0 8px;
 }
@@ -391,7 +406,8 @@ canvas {
   background-color: #fcfc9c;
   border: 2px solid #d4a61a;
   border-radius: 15px;
-  box-shadow: 2px 2px #d4a61a;
+  -webkit-box-shadow: 2px 2px #d4a61a;
+          box-shadow: 2px 2px #d4a61a;
   display: inline-block;
   margin: 0 8px;
 }
@@ -412,7 +428,8 @@ canvas {
   background-color: #f5bac6;
   border: 2px solid #dd7284;
   border-radius: 15px;
-  box-shadow: 2px 2px #dd7284;
+  -webkit-box-shadow: 2px 2px #dd7284;
+          box-shadow: 2px 2px #dd7284;
   display: inline-block;
   margin: 0 8px;
 }
@@ -470,6 +487,8 @@ canvas {
     margin: 1%;
   }
   .troisBlock {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
   .marque {
@@ -532,9 +551,12 @@ canvas {
 
 @media screen and (min-width: 840px) {
   .container_info {
+    display: -ms-grid;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
     grid-column-gap: 3%;
   }
 }
@@ -558,7 +580,8 @@ canvas {
   width: 100%;
   height: 5vh;
   margin-bottom: 20px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .contact textarea {
