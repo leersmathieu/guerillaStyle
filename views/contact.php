@@ -18,14 +18,14 @@
         <form action="index.php" method="post">
             <h2>Contact</h2>
             <p>Name :</p>
-            <input type="text" name="name" id="name" placeholder="Type your name">
+            <input type="text" name="name" id="name" placeholder="Entre ton nom">
             <p>E-mail :</p>
-            <input type="mail" id="mail" name="mail" placeholder="Enter your mail adress">
+            <input type="mail" id="mail" name="mail" placeholder="Entre ton adresse mail">
             <p>Message :</p>
-            <textarea type="text" name="message" id="message" placeholder="Tell me something . . ."></textarea>
-            <div class="logo">
-            </div>
+            <textarea type="text" name="message" id="message" placeholder="Tape ton message ici . . ."></textarea>
+            <div class="logo"></div>
         </form>
+        
     </div>
     <input type="submit" name="send" value="Send message" id="send">
 
