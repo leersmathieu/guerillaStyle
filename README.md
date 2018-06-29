@@ -1,17 +1,27 @@
 # GuerillaStyle
+
 Project of warStyle team for the guerilla style.
 
 Project réaliser par *Mathieu Leers*, *Baptiste Firket* et *Stéphane Wyns*, le 7 juin 2018 dans le cadre de la formation BeCode.
+
+
+## Phase 1
 
 Le projet est un One-pager devant être fait avec une deadline de **6h**.
 
 Le One-pager est fait sur le magasin de vêtement : La Ritournelle. Afin d'essaier d'améliorer [leur site internet] (https://www.ritournelle.be/index.html) et de proposer un meilleur projet, plus atractif en allant à l'essentiel.
 
 
-------------------------------------------------------------------------
+## Phase 2
+
+La phase 2 du projet est *d'améliorer* le site avec plus de temps devant nous, plus ou moins 3 semaines.
+
+
+¬-----------------------------------------------------------------------
 
 
 ##Démarche de la réalisation :
+
 
 ###Phase 1 : Début du projet rush de 6h
 
@@ -20,9 +30,14 @@ Le One-pager est fait sur le magasin de vêtement : La Ritournelle. Afin d'essai
 * Rajouter une mailinglist.
 
 
-###Phase 2
+###Phase 2 : Amélioration du projet
 
-* 
+* Ajout de l'animation des points.
+* Implantation des 3 boutons de couleur en css.
+* Mise en évidence de certaines choses pour les faire plus resortir.
+* Changement du choix de couleur pour un style différent mais que l'on trouve dans le thème.
+* Ajout des liens dans les icones des reseaux sociaux.
+* Finir de le rendre encore plus responsive.
 
 
 -------------------------------------------------------------------------
