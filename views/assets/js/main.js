@@ -1,3 +1,4 @@
+const navTitle = document.querySelector('h1')
 const navTwoWord = document.querySelector('#navTwoWord')
 const navDepot = document.querySelector('#navDepot')
 const navContact = document.querySelector('#navContact')
@@ -23,9 +24,15 @@ const contact = () => {
     
 }
 
+const head = () => {
+    TweenLite.to(window, 2, { scrollTo: { y: 0, offsetY: 0 } });
+    
+}
+
 navTwoWord.addEventListener('click', twoWord)
 navDepot.addEventListener('click', depot)
 navContact.addEventListener('click', contact)
+navTitle.addEventListener('click', head)
 
 
 burgerTwoWord.addEventListener('click', twoWord)
