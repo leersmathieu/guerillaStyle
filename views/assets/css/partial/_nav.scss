@@ -6,20 +6,25 @@
     background-color: $backgroundColor;
     z-index: 1;
     h1 {
-        width: 20vw;
+        width: 13vw;
         display: inline-block;
         strong {
             font-size: 5em;
             color: $accentTroisBlock;
         }
+        &:hover {
+            color: $primaryColor;
+            cursor: pointer;
+        }
     }
     nav {
         display: inline-block;
         width: 400px;
-        margin-left: 30vw;
+        margin-left: 55vw;
         ul {
             text-align: center; 
             li {
+                cursor: pointer;
                 padding: 20px; 
                 text-transform: uppercase;
             }
@@ -33,35 +38,47 @@
     }
 }
 
-//Animation Soulignement Navigation
-@media screen and (min-width: 840px) {
-    ul li {
-        display: inline;
-        text-align: center;
-    }
-    #navTwoWord:hover~hr {
-        margin-left: 10%;
-        opacity: 1;
-        background: $primaryColor;
-    }
-    #navDepot:hover~hr {
-        margin-left: 39%;
-        opacity: 1;
-        background: $secondaryColor;
-    }
-    #navContact:hover~hr {
-        margin-left: 67%;
-        opacity: 1;
-        background: rgb(248, 199, 51);
-    }
-    hr {
-        height: .25rem;
-        width: 100px;
-        margin: 0;
-        background: $primaryColor;
-        border: none;
-        transition: .3s ease-in-out;
-        opacity: 0;
-        margin-top: 3px;
+@media screen and (max-width: 1300px) {
+    #navigation {
+        h1 {
+            width: 30%;
+        }
     }
 }
+
+//Animation Soulignement Navigation ( non responsive )
+
+ul li {
+    display: inline;
+    text-align: center;
+}
+
+#navTwoWord:hover~hr {
+    margin-left: 10%;
+    opacity: 1;
+    background: $primaryColor;
+}
+
+#navDepot:hover~hr {
+    margin-left: 39%;
+    opacity: 1;
+    background: $secondaryColor;
+}
+
+#navContact:hover~hr {
+    margin-left: 67%;
+    opacity: 1;
+    background: rgb(248, 199, 51);
+}
+
+hr {
+    height: .25rem;
+    width: 100px;
+    margin: 0;
+    background: $primaryColor;
+    border: none;
+    transition: .3s ease-in-out;
+    opacity: 0;
+    margin-top: 3px;
+}
+

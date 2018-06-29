@@ -171,7 +171,7 @@ a, .mail {
 }
 
 #navigation h1 {
-  width: 20vw;
+  width: 13vw;
   display: inline-block;
 }
 
@@ -180,10 +180,15 @@ a, .mail {
   color: #dd7284;
 }
 
+#navigation h1:hover {
+  color: #a8d8d0;
+  cursor: pointer;
+}
+
 #navigation nav {
   display: inline-block;
   width: 400px;
-  margin-left: 30vw;
+  margin-left: 55vw;
 }
 
 #navigation nav ul {
@@ -191,6 +196,7 @@ a, .mail {
 }
 
 #navigation nav ul li {
+  cursor: pointer;
   padding: 20px;
   text-transform: uppercase;
 }
@@ -201,36 +207,44 @@ a, .mail {
   }
 }
 
-@media screen and (min-width: 840px) {
-  ul li {
-    display: inline;
-    text-align: center;
+@media screen and (max-width: 1300px) {
+  #navigation h1 {
+    width: 30%;
   }
-  #navTwoWord:hover ~ hr {
-    margin-left: 10%;
-    opacity: 1;
-    background: #a8d8d0;
-  }
-  #navDepot:hover ~ hr {
-    margin-left: 39%;
-    opacity: 1;
-    background: #eba3ae;
-  }
-  #navContact:hover ~ hr {
-    margin-left: 67%;
-    opacity: 1;
-    background: #f8c733;
-  }
-  hr {
-    height: .25rem;
-    width: 100px;
-    margin: 0;
-    background: #a8d8d0;
-    border: none;
-    transition: .3s ease-in-out;
-    opacity: 0;
-    margin-top: 3px;
-  }
+}
+
+ul li {
+  display: inline;
+  text-align: center;
+}
+
+#navTwoWord:hover ~ hr {
+  margin-left: 10%;
+  opacity: 1;
+  background: #a8d8d0;
+}
+
+#navDepot:hover ~ hr {
+  margin-left: 39%;
+  opacity: 1;
+  background: #eba3ae;
+}
+
+#navContact:hover ~ hr {
+  margin-left: 67%;
+  opacity: 1;
+  background: #f8c733;
+}
+
+hr {
+  height: .25rem;
+  width: 100px;
+  margin: 0;
+  background: #a8d8d0;
+  border: none;
+  transition: .3s ease-in-out;
+  opacity: 0;
+  margin-top: 3px;
 }
 
 header {
