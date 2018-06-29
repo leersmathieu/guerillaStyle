@@ -1,6 +1,6 @@
 <!-- BARRE DE NAVIGATION -->
 
-<div id="navigation">
+<div id="navigation0">
     <h1>LA RITOURNELLE <strong> . </strong></h1>
     <nav>
         <ul>

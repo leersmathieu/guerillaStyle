@@ -28,6 +28,17 @@
         }
     }
 }
+
+#send {
+    background-color: $primaryColor;
+    border-color: $primaryColor;
+    border-radius: 8px;
+    font-size: 120%;
+    &:hover {
+        background-color: $secondaryColor;
+        border-color: $secondaryColor;
+    }
+}
 @media screen and (min-width: 840px){
     .contact {
         height: auto;

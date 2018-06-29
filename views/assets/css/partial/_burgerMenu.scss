@@ -85,13 +85,7 @@
     }
     
     // * * * Demo * * *
-    body {
-        background-color: floralwhite;
-        font-family: 'Libre Baskerville', serif;
-        font-style: italic;
-        font-size: 30px;
-        text-align: centeR;
-    }
+    
     
     a {
         color: inherit;
@@ -109,7 +103,8 @@
     li {
         list-style: none;
         font-size: 25px;
-        padding: 5px 0;
+        padding: 10px;
+        background-color: rgb(255, 255, 242);
         a {
             text-decoration: none;
             &:hover {

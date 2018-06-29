@@ -8,7 +8,7 @@ body {
   background-color: #f1f9ff;
   font-size: 16px;
   font-family: "Lato-Regular";
-  color: #3d3d3d;
+  color: #525252;
 }
 
 .page {
@@ -32,6 +32,14 @@ a, .mail {
   text-decoration: underline;
   -webkit-text-decoration-style: dotted;
           text-decoration-style: dotted;
+}
+
+a:hover, .mail:hover {
+  color: #eba3ae;
+}
+
+ul li {
+  display: block;
 }
 
 @media screen and (max-width: 840px) {
@@ -131,14 +139,6 @@ a, .mail {
   transition: max-height 0.5s ease-in-out;
 }
 
-.burgerMenu body {
-  background-color: floralwhite;
-  font-family: 'Libre Baskerville', serif;
-  font-style: italic;
-  font-size: 30px;
-  text-align: centeR;
-}
-
 .burgerMenu a {
   color: inherit;
 }
@@ -155,7 +155,8 @@ a, .mail {
 .burgerMenu li {
   list-style: none;
   font-size: 25px;
-  padding: 5px 0;
+  padding: 10px;
+  background-color: #fffff2;
 }
 
 .burgerMenu li a {
@@ -172,7 +173,7 @@ a, .mail {
   }
 }
 
-#navigation {
+#navigation0 {
   width: 100%;
   height: 10vh;
   padding-left: 2%;
@@ -181,73 +182,72 @@ a, .mail {
   z-index: 1;
 }
 
-#navigation h1 {
+#navigation0 h1 {
   width: 13vw;
   display: inline-block;
 }
 
-#navigation h1 strong {
+#navigation0 h1 strong {
   font-size: 4em;
   color: #dd7284;
 }
 
-#navigation h1:hover {
+#navigation0 h1:hover {
   color: #a8d8d0;
   cursor: pointer;
 }
 
-#navigation nav {
+#navigation0 nav {
   display: inline-block;
   width: 400px;
   margin-left: 55vw;
 }
 
-#navigation nav ul {
+#navigation0 nav ul {
   text-align: center;
 }
 
-#navigation nav ul li {
+#navigation0 nav ul li {
   cursor: pointer;
   padding: 20px;
   text-transform: uppercase;
 }
 
 @media screen and (max-width: 840px) {
-  #navigation {
+  #navigation0 {
     display: none;
   }
 }
 
 @media screen and (max-width: 1300px) {
-  #navigation h1 {
+  #navigation0 h1 {
     width: 30%;
   }
 }
 
-ul li {
+#navigation0 ul li {
   display: inline;
-  text-align: center;
 }
 
-#navTwoWord:hover ~ hr {
+#navigation0 #navTwoWord:hover ~ hr {
   margin-left: 10%;
   opacity: 1;
   background: #a8d8d0;
 }
 
-#navDepot:hover ~ hr {
+#navigation0 #navDepot:hover ~ hr {
   margin-left: 39%;
   opacity: 1;
   background: #eba3ae;
 }
 
-#navContact:hover ~ hr {
+#navigation0 #navContact:hover ~ hr {
   margin-left: 67%;
   opacity: 1;
   background: #f8c733;
 }
 
-hr {
+#navigation0 hr {
   height: .25rem;
   width: 100px;
   margin: 0;
@@ -260,7 +260,7 @@ hr {
 }
 
 header {
-  height: 94vh;
+  height: 87vh;
   text-align: center;
   padding-top: 30vh;
 }
@@ -290,9 +290,33 @@ canvas {
   header img {
     width: 40%;
   }
-  header canvas {
-    z-index: 0;
-  }
+}
+
+.callToAction {
+  text-align: center;
+}
+
+.callToAction .callFacebook {
+  width: 50%;
+  margin: auto;
+}
+
+.callToAction .callFacebook .btn {
+  background: #a8d8d0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a8d8d0), to(#eba3ae));
+  background-image: linear-gradient(#a8d8d0, #eba3ae);
+  border-radius: 3px;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+  text-shadow: 0px 2px 0px #969696;
+}
+
+.callToAction .callFacebook .btn:hover {
+  background: #d4a61a;
+  text-decoration: none;
 }
 
 .container_content {
@@ -595,6 +619,18 @@ canvas {
   padding-bottom: 5px;
 }
 
+#send {
+  background-color: #a8d8d0;
+  border-color: #a8d8d0;
+  border-radius: 8px;
+  font-size: 120%;
+}
+
+#send:hover {
+  background-color: #eba3ae;
+  border-color: #eba3ae;
+}
+
 @media screen and (min-width: 840px) {
   .contact {
     height: auto;
@@ -606,6 +642,14 @@ footer .social {
   margin: auto;
   margin-bottom: 20px;
   margin-top: 40px;
+}
+
+footer .social a {
+  color: #a8d8d0;
+}
+
+footer .social a:hover {
+  color: #eba3ae;
 }
 
 footer .social div {

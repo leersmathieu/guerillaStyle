@@ -5,6 +5,12 @@ footer {
         margin: auto;
         margin-bottom: 20px;
         margin-top: 40px;
+        a {
+            color: $primaryColor;
+            &:hover {
+                color: $secondaryColor;
+            }
+        }
         
         div {
             display: inline-block;
@@ -19,6 +25,8 @@ footer {
         padding-bottom: 20px;
     }
 }
+
+
 @media screen and (min-width: 840px){
 
     footer {
